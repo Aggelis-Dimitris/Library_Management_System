@@ -60,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FORMS\DashboardForm.resx">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FORMS\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,6 +93,7 @@
     <Folder Include="THE-DATABASE\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="IMAGES\book.png" />
     <Content Include="IMAGES\lock.jpg" />
     <Content Include="IMAGES\user.jpg" />
   </ItemGroup>
