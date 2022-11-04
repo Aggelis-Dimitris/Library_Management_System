@@ -94,6 +94,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="IMAGES\book.png" />
+    <Content Include="IMAGES\close.png" />
     <Content Include="IMAGES\lock.jpg" />
     <Content Include="IMAGES\user.jpg" />
   </ItemGroup>

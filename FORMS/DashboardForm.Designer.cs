@@ -29,12 +29,14 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.logo_dashboard = new System.Windows.Forms.PictureBox();
-            this.lms = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.lms = new System.Windows.Forms.Label();
+            this.logo_dashboard = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button_close = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logo_dashboard)).BeginInit();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -49,14 +51,13 @@
             this.panel1.Size = new System.Drawing.Size(267, 561);
             this.panel1.TabIndex = 0;
             // 
-            // logo_dashboard
+            // panel2
             // 
-            this.logo_dashboard.Location = new System.Drawing.Point(12, 34);
-            this.logo_dashboard.Name = "logo_dashboard";
-            this.logo_dashboard.Size = new System.Drawing.Size(100, 100);
-            this.logo_dashboard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.logo_dashboard.TabIndex = 1;
-            this.logo_dashboard.TabStop = false;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
+            this.panel2.Location = new System.Drawing.Point(0, 166);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(267, 10);
+            this.panel2.TabIndex = 1;
             // 
             // lms
             // 
@@ -69,21 +70,33 @@
             this.lms.TabIndex = 1;
             this.lms.Text = "LMS";
             // 
-            // panel2
+            // logo_dashboard
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
-            this.panel2.Location = new System.Drawing.Point(0, 166);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(267, 10);
-            this.panel2.TabIndex = 1;
+            this.logo_dashboard.Location = new System.Drawing.Point(12, 34);
+            this.logo_dashboard.Name = "logo_dashboard";
+            this.logo_dashboard.Size = new System.Drawing.Size(100, 100);
+            this.logo_dashboard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.logo_dashboard.TabIndex = 1;
+            this.logo_dashboard.TabStop = false;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Controls.Add(this.button_close);
             this.panel3.Location = new System.Drawing.Point(273, 0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(812, 561);
             this.panel3.TabIndex = 1;
+            // 
+            // button_close
+            // 
+            this.button_close.FlatAppearance.BorderSize = 0;
+            this.button_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_close.Location = new System.Drawing.Point(784, 3);
+            this.button_close.Name = "button_close";
+            this.button_close.Size = new System.Drawing.Size(25, 25);
+            this.button_close.TabIndex = 0;
+            this.button_close.UseVisualStyleBackColor = true;
             // 
             // DashboardForm
             // 
@@ -100,6 +113,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logo_dashboard)).EndInit();
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -111,5 +125,6 @@
         private System.Windows.Forms.PictureBox logo_dashboard;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button button_close;
     }
 }

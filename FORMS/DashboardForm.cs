@@ -20,6 +20,7 @@ namespace Library_Management_System.FORMS
         private void DashboardForm_Load(object sender, EventArgs e)
         {
             logo_dashboard.Image = Image.FromFile("../../IMAGES/book.png");
+            button_close.Image = Image.FromFile("../../IMAGES/close.png");
         }
     }
 }
