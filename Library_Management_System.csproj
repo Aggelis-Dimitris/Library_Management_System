@@ -93,10 +93,15 @@
     <Folder Include="THE-DATABASE\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="IMAGES\author.png" />
     <Content Include="IMAGES\book.png" />
     <Content Include="IMAGES\close.png" />
+    <Content Include="IMAGES\literature.png" />
     <Content Include="IMAGES\lock.jpg" />
+    <Content Include="IMAGES\loop.png" />
+    <Content Include="IMAGES\tag.png" />
     <Content Include="IMAGES\user.jpg" />
+    <Content Include="IMAGES\users.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
